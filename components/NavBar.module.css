@@ -1,0 +1,45 @@
+/* src/components/NavBar.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#d2dae3;
+    padding: 10px 20px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .companyName {
+    color: #2E97A7;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2E97A7;
+    cursor: pointer;
+  }
+  
+  .navbar li:hover {
+    background-color: #d089cb;
+  }
+  
